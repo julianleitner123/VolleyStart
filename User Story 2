@@ -1,0 +1,11 @@
+2. 🎥 Videos ansehen können
+
+User Story:
+Als Nutzer möchte ich Video-Tutorials sehen, damit ich die richtige Ausführung visuell lerne.
+
+Tasks:
+
+Video-Player in App einbauen
+Beispielvideo pro Technik hinzufügen
+„Richtig vs. falsch“-Sektion erstellen
+Ladezeit der Videos optimieren
