@@ -1,0 +1,56 @@
+🏐 VolleyStart – User Stories + Tasks
+1. 📚 Technik lernen können
+
+User Story:
+Als Anfänger möchte ich eine Volleyballtechnik (z. B. Baggern) einfach erklärt bekommen, damit ich sie schnell verstehen und üben kann.
+
+Tasks:
+
+Seite „Technik-Modul“ erstellen
+Struktur bauen: Erklärung + Schritte + Fehler
+Inhalte für 1 Technik (z. B. Baggern) einfügen
+Layout für mobile & Desktop optimieren
+2. 🎥 Videos ansehen können
+
+User Story:
+Als Nutzer möchte ich Video-Tutorials sehen, damit ich die richtige Ausführung visuell lerne.
+
+Tasks:
+
+Video-Player in App einbauen
+Beispielvideo pro Technik hinzufügen
+„Richtig vs. falsch“-Sektion erstellen
+Ladezeit der Videos optimieren
+3. 🤖 KI-Coach nutzen
+
+User Story:
+Als Nutzer möchte ich Fragen stellen können, damit ich personalisierte Tipps zur Verbesserung bekomme.
+
+Tasks:
+
+Chat-UI für KI bauen
+API-Anbindung (z. B. GPT) einrichten
+Prompt für Volleyball-Tipps erstellen
+Antwortanzeige formatieren (kurz + verständlich)
+4. 🏟️ Auswahl zwischen Hallen- und Beachvolleyball
+
+User Story:
+Als Anfänger möchte ich zwischen Hallen- und Beachvolleyball wählen, damit ich passende Inhalte bekomme.
+
+Tasks:
+
+Startscreen mit 2 Auswahlbuttons erstellen
+Routing für 2 Bereiche implementieren
+getrennte Inhalte-Struktur anlegen
+UI visuell unterscheiden (Farben/Icon)
+5. 📈 Fortschritt sehen
+
+User Story:
+Als Nutzer möchte ich sehen, welche Techniken ich gelernt habe, damit ich meinen Fortschritt motivierend verfolgen kann.
+
+Tasks:
+
+User-Profil oder Fortschrittsseite erstellen
+Checkbox „gelernt“ pro Technik
+einfache Progress-Logik speichern (LocalStorage oder DB)
+Fortschrittsanzeige (z. B. 3/5 Techniken gelernt)
