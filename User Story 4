@@ -1,0 +1,11 @@
+4. 🏟️ Auswahl zwischen Hallen- und Beachvolleyball
+
+User Story:
+Als Anfänger möchte ich zwischen Hallen- und Beachvolleyball wählen, damit ich passende Inhalte bekomme.
+
+Tasks:
+
+Startscreen mit 2 Auswahlbuttons erstellen
+Routing für 2 Bereiche implementieren
+getrennte Inhalte-Struktur anlegen
+UI visuell unterscheiden (Farben/Icon)
