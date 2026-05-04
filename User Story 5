@@ -1,0 +1,11 @@
+5. 📈 Fortschritt sehen
+
+User Story:
+Als Nutzer möchte ich sehen, welche Techniken ich gelernt habe, damit ich meinen Fortschritt motivierend verfolgen kann.
+
+Tasks:
+
+User-Profil oder Fortschrittsseite erstellen
+Checkbox „gelernt“ pro Technik
+einfache Progress-Logik speichern (LocalStorage oder DB)
+Fortschrittsanzeige (z. B. 3/5 Techniken gelernt)
