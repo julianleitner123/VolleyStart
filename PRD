@@ -1,0 +1,128 @@
+📄 Product Requirements Document (PRD)
+🏐 Product Name
+
+VolleyStart
+
+🌐 Overview
+
+VolleyStart ist eine KI-gestützte Webplattform, die Volleyball-Anfängern hilft, die Grundlagen schnell, verständlich und praxisnah zu lernen.
+
+Die App kombiniert:
+
+einfache Lerninhalte
+Video-Tutorials
+interaktive Übungen
+einen KI-Coach mit personalisiertem Feedback
+
+Ziel ist ein modernes, individuelles Lernerlebnis, das klassische Trainingsmethoden ergänzt.
+
+❗ Problem
+
+Viele Anfänger im Volleyball haben Schwierigkeiten, die Grundtechniken korrekt zu erlernen, weil:
+
+Erklärungen oft zu kompliziert sind
+Feedback fehlt oder nicht individuell ist
+Training ohne Anleitung schnell zu Fehlern führt
+keine einfache Möglichkeit besteht, sich selbst zu verbessern
+
+Ergebnis: Frustration, falsche Technik und mangelnder Fortschritt.
+
+💡 Solution
+
+VolleyStart löst dieses Problem durch eine Kombination aus strukturiertem Lernen und KI-gestütztem Coaching:
+
+verständliche Schritt-für-Schritt-Anleitungen
+visuelle Lerninhalte (Videos)
+persönliches Feedback durch KI
+optional: Videoanalyse der eigenen Technik
+
+Die Plattform passt sich an das Niveau des Nutzers an und begleitet ihn aktiv beim Lernen.
+
+🎯 Target Users
+absolute Volleyball-Anfänger
+Schüler:innen und Einsteiger im Vereinssport
+Jugendliche (ca. 12–20 Jahre)
+Personen, die Volleyball selbstständig lernen wollen
+Hobbyspieler, die ihre Technik verbessern möchten
+⚙️ Core Features
+🏟️ 1. Auswahlbereich
+Hallenvolleyball (6 vs 6, klassische Regeln)
+Beachvolleyball (2 vs 2, andere Technik & Bedingungen)
+📚 2. Technik-Lernmodule
+
+Für beide Varianten:
+
+Baggern
+Pritschen
+Aufschlag
+Smash / Angriff
+Ballkontrolle
+
+Jedes Modul enthält:
+
+einfache Erklärung
+Schritt-für-Schritt-Anleitung
+Video-Tutorial
+typische Fehler & Korrekturen
+🎥 3. Video-Tutorials
+professionelle Beispielvideos
+richtige Ausführung vs. Fehler
+visuelle Lernunterstützung
+🤖 4. KI-Coach („Smart Coach“)
+beantwortet Fragen in Echtzeit
+gibt individuelle Tipps
+erklärt Fehler verständlich
+passt Empfehlungen an Nutzerlevel an
+
+Beispiele:
+
+„Dein Bagger ist zu instabil, fixiere deine Unterarme stärker.“
+„Du springst beim Smash zu früh – warte länger auf den Ball.“
+🎬 5. Videoanalyse (Advanced Feature)
+Nutzer filmt eigene Technik
+Upload in die App
+KI analysiert Körperbewegung
+Feedback zu:
+Haltung
+Timing
+Stabilität
+Technikfehlern
+📈 6. Fortschrittssystem
+Tracking gelernter Techniken
+kleine Challenges (z. B. „10 saubere Bagger in Folge“)
+visuelle Fortschrittsanzeige
+Motivation durch Level-/Erfolgslogik
+🚫 Non-Goals (was bewusst nicht Teil ist)
+keine Profi-Trainer-Alternative
+kein Live-Match-Coaching in Echtzeit
+keine Social-Media-Plattform
+keine komplexe Vereinsverwaltung
+keine Hardware-Integration (z. B. Sensoren) in Version 1
+📊 Success Criteria
+
+Die App gilt als erfolgreich, wenn:
+
+Nutzer regelmäßig Trainingsmodule abschließen
+hohe Wiederkehrrate (Return Rate) erreicht wird
+KI-Coach aktiv genutzt wird (Fragen + Feedback)
+Nutzer subjektiv sagen, dass sie „besser geworden sind“
+Videoanalyse mindestens einmal pro Nutzer verwendet wird (optional Ziel)
+🧱 Suggested Tech Stack
+Frontend
+React / Next.js (Webapp)
+Tailwind CSS (UI Design)
+Backend
+Node.js (API) oder Firebase Backend
+Datenbank: Firestore oder PostgreSQL
+KI-System
+LLM API (z. B. GPT-basiert für Smart Coach)
+Prompt Engineering für Technikfeedback
+Videoanalyse (Advanced)
+Pose Estimation:
+MediaPipe
+TensorFlow.js
+optional später: serverseitige ML-Modelle
+Storage
+Cloud Storage (AWS S3 / Firebase Storage) für Videos
+Auth
+Firebase Auth oder Auth0
