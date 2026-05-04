@@ -1,0 +1,11 @@
+3. 🤖 KI-Coach nutzen
+
+User Story:
+Als Nutzer möchte ich Fragen stellen können, damit ich personalisierte Tipps zur Verbesserung bekomme.
+
+Tasks:
+
+Chat-UI für KI bauen
+API-Anbindung (z. B. GPT) einrichten
+Prompt für Volleyball-Tipps erstellen
+Antwortanzeige formatieren (kurz + verständlich)
